@@ -1,6 +1,39 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-  <body>
-    <h1 th:text="${titulo}">Título principal</h1>
-  </body>
+<html lang="en">
+<head>
+  <title>Bobería #4</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<script>
+$(document).ready(function(){
+  $('#sql').tooltip({title: "Click para ver el Script SQL", animation: true}); 
+});
+</script>
+
+<body>
+
+<div  class="container">
+  <h2>Bobería #4</h2>
+  <p>Para Practicar los Joins</p>
+  <a href="img/TareaJoin.sql" download>
+    <img id="sql" src="img/sql.png" alt="W3Schools" width="64" height="64">
+  </a>
+  <br>
+  <br>
+   <ul class="list-group">
+    <li class="list-group-item"><a href="query1.html" >Query</a> <span class="badge">1</span></li>
+    <li class="list-group-item"><a href="query2.html" >Query</a> <span class="badge">2</span></li>
+    <li class="list-group-item"><a href="query3.html" >Query</a> <span class="badge">3</span></li>
+    <li class="list-group-item"><a href="query4.html" >Query</a> <span class="badge">4</span></li>
+    <li class="list-group-item"><a href="query5.html" >Query</a> <span class="badge">5</span></li>
+  </ul>
+
+</div>
+</body>
 </html>
+
