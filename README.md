@@ -4,7 +4,7 @@ Una aplicación web interactiva alojada en **GitHub Pages** diseñada para pract
 
 El reto te presenta **15 ejercicios progresivos**: se te muestra la descripción del requerimiento, el esquema de la base de datos y la **tabla de resultados esperada**. Tu objetivo es redactar la consulta SQL exacta que genera dicho resultado.
 
-🔗 **[Probar la aplicación en vivo (GitHub Pages)](https://tu-usuario.github.io/sql-joins-challenge/)**
+🔗 **[Probar la aplicación en vivo (GitHub Pages)](https://jhoanbaez214.github.io/github.io/index.html)**
 
 ---
 
